@@ -1,0 +1,86 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fletchers Web Design</title>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Orbitron', sans-serif;
+            background-color: #121212;
+            color: #f0f0f0;
+        }
+        header {
+            text-align: center;
+            padding: 2rem 1rem;
+            background-color: #1e1e1e;
+        }
+        header img {
+            width: 80px;
+            margin-bottom: 1rem;
+        }
+        header h1 {
+            font-size: 2.5rem;
+            margin: 0;
+        }
+        section {
+            padding: 2rem 1rem;
+            max-width: 800px;
+            margin: auto;
+        }
+        .about, .services, .contact {
+            margin-bottom: 2rem;
+        }
+        h2 {
+            font-size: 1.8rem;
+            margin-bottom: 1rem;
+            color: #00ffcc;
+        }
+        form input, form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: none;
+            border-radius: 5px;
+        }
+        form button {
+            background-color: #00ffcc;
+            color: #121212;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="assets/logo.png" alt="Fletchers Web Design Logo">
+        <h1>Fletchers Web Design</h1>
+    </header>
+    <section class="about">
+        <h2>About</h2>
+        <p>Hi, my name is Max. I’m here to create your very own digital portal — a smart, modern website to showcase your growing business. I work closely with each client to design and build a site that is sleek, functional, and tailored to your audience. Whether bold, professional, or uniquely creative, your website will leave a strong impression.</p>
+    </section>
+    <section class="services">
+        <h2>Services</h2>
+        <p>I build custom websites to fit each client's needs. Whether you’re after a one-page site, a portfolio, or a business page with a contact form, I’ll work with you to quote a fair and personal price.</p>
+        <p><strong>Pricing:</strong> Available by personal quote.</p>
+    </section>
+    <section class="contact">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:fletchrs.webdesign@outlook.com">fletchrs.webdesign@outlook.com</a></p>
+        <p>Mobile: <a href="tel:07938998095">07938998095</a></p>
+        <form action="https://formspree.io/f/your-custom-id" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+</body>
+</html>
